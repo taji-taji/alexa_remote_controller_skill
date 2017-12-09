@@ -58,7 +58,9 @@ exports.INFRARED_DATA = Object.freeze({
     }),
     AIR_CONDITIONER: Object.freeze({
         POWER_OFF: infrared.AIR_CONDITIONER.POWER_OFF,
-        HEATING_ON: infrared.AIR_CONDITIONER.HEATING_ON
+        HEATING_ON: infrared.AIR_CONDITIONER.HEATING_ON,
+        TEMPERATURE_DOWN: infrared.AIR_CONDITIONER.TEMPERATURE_DOWN,
+        TEMPERATURE_UP: infrared.AIR_CONDITIONER.TEMPERATURE_UP
     }),
     HUMIDIFIER: Object.freeze({
         POWER: infrared.HUMIDIFIER.POWER

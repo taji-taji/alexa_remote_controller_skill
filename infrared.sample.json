@@ -22,7 +22,9 @@
     },
     "AIR_CONDITIONER": {
         "POWER_OFF": "{\"format\":\"raw\",\"freq\":38,\"data\":[0000,0000,....,0000]}",
-        "HEATING_ON": "{\"format\":\"raw\",\"freq\":38,\"data\":[0000,0000,....,0000]}"
+        "HEATING_ON": "{\"format\":\"raw\",\"freq\":38,\"data\":[0000,0000,....,0000]}",
+        "TEMPERATURE_DOWN": "{\"format\":\"raw\",\"freq\":38,\"data\":[0000,0000,....,0000]}",
+        "TEMPERATURE_UP": "{\"format\":\"raw\",\"freq\":38,\"data\":[0000,0000,....,0000]}"
     },
     "HUMIDIFIER": {
         "POWER": "{\"format\":\"raw\",\"freq\":38,\"data\":[0000,0000,....,0000]}"

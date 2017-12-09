@@ -86,6 +86,18 @@ let nextHandlers = Alexa.CreateStateHandler('_NEXT', {
             that.emit(':ask', '暖房をつけました。' + that.t('ASK_NEXT_ACTION'));
         });
     },
+    'ACTemperatureDown': function () {
+        let that = this;
+        IRKit.request(IRKit.INFRARED_DATA.AIR_CONDITIONER.TEMPERATURE_DOWN, function() {
+            that.emit(':ask', '温度を下げました。' + that.t('ASK_NEXT_ACTION'));
+        });
+    },
+    'ACTemperatureUp': function () {
+        let that = this;
+        IRKit.request(IRKit.INFRARED_DATA.AIR_CONDITIONER.TEMPERATURE_UP, function() {
+            that.emit(':ask', '温度を上げました。' + that.t('ASK_NEXT_ACTION'));
+        });
+    },
     'HMDPowerSwitch': function () {
         let that = this;
         IRKit.request(IRKit.INFRARED_DATA.HUMIDIFIER.POWER, function() {
